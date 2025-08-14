@@ -8,3 +8,7 @@ Designed for quick, customizable resume creation with a clean user interface.
 -Lightweight – Minimal files and quick setup.
 -Editable Fields – Add personal details, education, skills, and work experience.
 -Instant Save – Exports resume to a ready-to-use PDF file.
+
+# Technologies Used
+ -Java (Swing) – For building the graphical interface.
+ -iText Library – For creating and formatting PDF files.
