@@ -1,14 +1,22 @@
-# ResumeBuilder
-A simple and efficient Java Swing application that generates professional resumes in PDF format using iText.
-Designed for quick, customizable resume creation with a clean user interface.
+# Resume Pro – Java Swing + iText
 
-# Features
--User-Friendly GUI – Built with Java Swing for simplicity and speed.
--PDF Export – Generates a clean, professional resume using iText.
--Lightweight – Minimal files and quick setup.
--Editable Fields – Add personal details, education, skills, and work experience.
--Instant Save – Exports resume to a ready-to-use PDF file.
+A simple **Java Swing** application to create resumes and export them as **PDF** using the **iText** library.
 
-# Technologies Used
- -Java (Swing) – For building the graphical interface.
- -iText Library – For creating and formatting PDF files.
+##  Features
+- Clean Swing GUI to enter details (name, email, phone, summary, education, skills, experience)
+- One-click **PDF generation**
+- Minimal code and easy setup
+- Works fully offline
+
+##  Requirements
+- Java 8+ (JDK)
+- iText 5.5.13.x (placed in `lib/`)
+
+##  How to Run
+#Windows
+javac -cp "lib/*" src/Main.java
+java  -cp "lib/*;src" Main
+
+#macOS/Linux
+javac -cp "lib/*" src/Main.java
+java  -cp "lib/*:src" Main
